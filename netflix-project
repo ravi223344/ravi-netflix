@@ -46,7 +46,7 @@ pipeline {
      always {
          emailext body: '''"Project: ${env.JOB_NAME}<br/>" +
                 "Build Number: ${env.BUILD_NUMBER}<br/>" +
-                "URL: ${env.BUILD_URL}<br/>"''', subject: 'this is the project build trigger result', to: 'raviteja.setti@gmail.com'
+                "URL: ${env.Bhttp://65.0.86.230:8080/job/netflix/26/console}<br/>"''', subject: 'this is the project build trigger result', to: 'raviteja.setti@gmail.com'
         }
     }
 }
